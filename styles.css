@@ -1,0 +1,119 @@
+.body {
+  position: relative;
+  font-size: x-large;
+  align-self: center;
+  font-family: monospace;
+  word-spacing: -4px;
+  text-align: center;
+  background-color: rgb(18, 2, 57);
+  top: 200px;
+}
+@font-face {
+  font-family: "customfont";
+  src: url(HeadlinerNo.45\ DEMO.ttf);
+}
+.input1 {
+  size: 100px;
+}
+
+.new1 {
+  color: rgb(255, 255, 255);
+  position: relative;
+  right: 50px;
+  font-family: cursive;
+}
+/* Button styling */
+.button1 {
+  position: relative;
+  background-color: #347bf1;
+  padding: 1.2em 4em;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+  top: 10px;
+  left: 60px;
+  animation: slidein 0.5s ease-in-out;
+  transition: transform 0.1s ease-in-out;
+}
+
+/* Define the slidein animation */
+@keyframes slidein {
+  from {
+    opacity: 0; /* Start from invisible */
+    transform: translateX(-20px); /* Start from left */
+  }
+  to {
+    opacity: 1; /* Fully visible */
+    transform: translateX(0); /* End at normal position */
+  }
+}
+
+.button1:hover {
+  background-color: white;
+  color: #17438b;
+  transform: scale(1.07);
+}
+
+.button1:active {
+  background-color: #17438b;
+  color: white;
+  transform: scale(0.95);
+}
+
+.text {
+  position: relative;
+  padding: 1.2em 7em;
+  font-size: 18px;
+  left: 60px;
+  border-radius: 10px;
+  background-color: rgb(195, 218, 210);
+  animation: textslide 0.5s ease-in-out;
+}
+@keyframes textslide {
+  from {
+    opacity: 0; /* Start from invisible */
+    transform: translateX(-20px); /* Start from left */
+  }
+  to {
+    opacity: 1; /* Fully visible */
+    transform: translateX(0); /* End at normal position */
+  }
+}
+.container {
+  position: relative;
+  background-color: rgb(9, 53, 116);
+  width: 30em;
+  height: 160px;
+  padding: 1.2em 0em;
+  border-radius: 20px;
+  left: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.new1 {
+  position: relative;
+  left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.delete2 {
+  position: relative;
+  background-color: #347bf1;
+  padding: 1.2em 4em;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+  bottom: 58px;
+  left: 305px;
+}
+.new1 {
+  color: white;
+  margin: 20px 0; /* Adjust the vertical margin between the <h3> elements */
+  /* Include padding and border in the element's total width */
+}
