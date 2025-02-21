@@ -38,3 +38,4 @@ function delete2() {
   cos = 160;
   container1.style.height = cos + "px";
 }
+npm i @vercel/analytics
